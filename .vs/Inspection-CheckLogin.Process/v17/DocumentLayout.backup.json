@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|solutionrelative:inspection-checklogin.process\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.controllers\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|solutionrelative:inspection-checklogin.controllers\\controllers\\usercontrollers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.channel\\services\\mongoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|solutionrelative:inspection-checklogin.channel\\services\\mongoconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.channel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|solutionrelative:inspection-checklogin.channel\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|solutionrelative:inspection-checklogin.controllers\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|solutionrelative:inspection-checklogin.controllers\\dtofactory\\dtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.controllers\\dtofactory\\idtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|solutionrelative:inspection-checklogin.controllers\\dtofactory\\idtofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57761BE0-F594-5040-9022-CD98DA1EC7C4}|Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.handlers\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57761BE0-F594-5040-9022-CD98DA1EC7C4}|Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj|solutionrelative:inspection-checklogin.handlers\\handlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10027312-949A-1B04-6748-4CFB4A7EC0F3}|Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.messages\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10027312-949A-1B04-6748-4CFB4A7EC0F3}|Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj|solutionrelative:inspection-checklogin.messages\\userdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.process\\appconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|solutionrelative:inspection-checklogin.process\\appconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.process\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|solutionrelative:inspection-checklogin.process\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.process\\inspection-checklogin.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|solutionrelative:inspection-checklogin.process\\inspection-checklogin.process.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57761BE0-F594-5040-9022-CD98DA1EC7C4}|Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.handlers\\inspection-checklogin.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57761BE0-F594-5040-9022-CD98DA1EC7C4}|Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj|solutionrelative:inspection-checklogin.handlers\\inspection-checklogin.handlers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.controllers\\inspection-checklogin.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B5FB745-F1DD-8FE1-813F-9E271AF3D863}|Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj|solutionrelative:inspection-checklogin.controllers\\inspection-checklogin.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.channel\\inspection-checklogin.channel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B4E55A48-78BC-E762-1DBD-03B29FB10942}|Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj|solutionrelative:inspection-checklogin.channel\\inspection-checklogin.channel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2384455D-4251-ED51-3CB4-4D9BE7E91631}|Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj|solutionrelative:inspection-checklogin.process\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10027312-949A-1B04-6748-4CFB4A7EC0F3}|Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj|d:\\fypbackend\\inspection-checklogin.process\\inspection-checklogin.messages\\inspection-checklogin.messages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10027312-949A-1B04-6748-4CFB4A7EC0F3}|Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj|solutionrelative:inspection-checklogin.messages\\inspection-checklogin.messages.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDtoFactory.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Controllers\\DtoFactory\\IDtoFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:06:03.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DtoFactory.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\DtoFactory\\DtoFactory.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Controllers\\DtoFactory\\DtoFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:05:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\Program.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Process\\Program.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\Program.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Process\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:03:14.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Handlers\\Handlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Handlers\\Handlers\\LoginHandler.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Handlers\\Handlers\\LoginHandler.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Handlers\\Handlers\\LoginHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:10:25.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Controllers\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Controllers\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:05:04.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Controllers\\Controllers\\UserControllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:04:34.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Channel\\Services\\UserService.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Services\\UserService.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Channel\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:02:15.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoConnect.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Services\\MongoConnect.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Channel\\Services\\MongoConnect.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Services\\MongoConnect.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Channel\\Services\\MongoConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:01:38.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Messages\\UserDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Messages\\UserDtos\\LoginDto.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Messages\\UserDtos\\LoginDto.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Messages\\UserDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:02:40.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppConfiguration.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\AppConfiguration.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Process\\AppConfiguration.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\AppConfiguration.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Process\\AppConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:11:30.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Process\\LoggingMiddleware.cs",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\LoggingMiddleware.cs",
+              "RelativeToolTip": "Inspection-CheckLogin.Process\\LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:11:33.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inspection-CheckLogin.Process",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj",
+              "RelativeToolTip": "Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T22:57:06.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Inspection-CheckLogin.Handlers",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj",
+              "RelativeToolTip": "Inspection-CheckLogin.Handlers\\Inspection-CheckLogin.Handlers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T22:55:51.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\appsettings.json",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Process\\appsettings.json",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Process\\appsettings.json",
+              "RelativeToolTip": "Inspection-CheckLogin.Process\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T22:59:23.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Inspection-CheckLogin.Channel",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj",
+              "RelativeToolTip": "Inspection-CheckLogin.Channel\\Inspection-CheckLogin.Channel.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T22:56:36.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Inspection-CheckLogin.Messages",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj",
+              "RelativeToolTip": "Inspection-CheckLogin.Messages\\Inspection-CheckLogin.Messages.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T22:55:50.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Inspection-CheckLogin.Controllers",
+              "DocumentMoniker": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj",
+              "RelativeDocumentMoniker": "Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj",
+              "ToolTip": "D:\\FYPBackend\\Inspection-CheckLogin.Process\\Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj",
+              "RelativeToolTip": "Inspection-CheckLogin.Controllers\\Inspection-CheckLogin.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T22:49:34.509Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

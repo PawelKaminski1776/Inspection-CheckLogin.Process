@@ -1,0 +1,19 @@
+# Ignore the .learningtransport folder and all its contents
+.learningtransport/
+
+# Ignore the .learningtransport folder and all its contents
+.learningtransport/
+./Inspection-CheckLogin.Process/bin
+./Inspection-CheckLogin.Process/obj
+
+./Inspection-CheckLogin.Messages/bin
+./Inspection-CheckLogin.Messages/obj
+
+./Inspection-CheckLogin.Handlers/bin
+./Inspection-CheckLogin.Handlers/obj
+
+./Inspection-CheckLogin.Controllers/bin
+./Inspection-CheckLogin.Controllers/obj
+
+./Inspection-CheckLogin.Channel/bin
+./Inspection-CheckLogin.Channel/obj

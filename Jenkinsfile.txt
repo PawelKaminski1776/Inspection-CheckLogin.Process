@@ -1,0 +1,59 @@
+pipeline {
+    agent any
+
+    tools {
+        msbuild "dotnet"  
+    }
+
+    environment {
+        CI = "true"
+        DOCKER_IMAGE = "checklogin-service"
+        CONTAINER_NAME = "checklogin-container"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm: [
+                    $class: 'GitSCM', 
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[url: 'https://github.com/PawelKaminski1776/Inspection-CheckLogin.Process.git']]
+                ]
+            }
+        }
+
+        stage('Restore Dependencies') {
+            steps {
+                bat 'dotnet restore'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'dotnet build --configuration Release --no-restore'         
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                bat 'dotnet publish -c Release -o publish'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                bat "docker build -f Inspection-CheckLogin.dockerfile -t ${DOCKER_IMAGE} ."
+            }
+        }
+
+        stage('Run Docker Container') {
+            steps {
+                bat """
+                    docker stop ${CONTAINER_NAME} || true
+                    docker rm ${CONTAINER_NAME} || true
+                    docker run -d -p 5003:5003 --name ${CONTAINER_NAME} ${DOCKER_IMAGE}
+                """
+            }
+        }
+    }
+}
