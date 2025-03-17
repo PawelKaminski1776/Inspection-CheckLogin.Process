@@ -24,24 +24,6 @@ pipeline {
             }
         }
 
-        stage('Restore Dependencies') {
-            steps {
-                bat 'dotnet restore'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                bat 'dotnet build --configuration Release --no-restore'         
-            }
-        }
-
-        stage('Publish') {
-            steps {
-                bat 'dotnet publish -c Release -o publish'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 bat "docker build -f Inspection-CheckLogin.dockerfile -t ${DOCKER_IMAGE} ."
