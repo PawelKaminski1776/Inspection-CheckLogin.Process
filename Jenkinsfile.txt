@@ -4,7 +4,7 @@ pipeline {
     environment {
         CI = "true"
         DOCKER_IMAGE = "checklogin-service"
-        CONTAINER_NAME = "micro-service-container"
+        CONTAINER_NAME = "checklogin-container"
 		GITHUB_TOKEN = credentials('github-api-token')
     }
 
