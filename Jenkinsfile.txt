@@ -8,7 +8,7 @@ pipeline {
     environment {
         CI = "true"
         DOCKER_IMAGE = "checklogin-service"
-        CONTAINER_NAME = "checklogin-container"
+        CONTAINER_NAME = "micro-service-container"
     }
 
     stages {
