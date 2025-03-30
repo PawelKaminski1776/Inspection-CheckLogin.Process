@@ -1,7 +1,6 @@
-service: checklogin
 runtime: custom
 env: flex
-service: default
+service: checklogin
 
 runtime_config:
   runtime_version: "8"
