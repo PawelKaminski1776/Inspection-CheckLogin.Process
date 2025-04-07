@@ -1,0 +1,73 @@
+pipeline {
+    agent any
+
+    environment {
+        CI = "true"
+        DOCKER_IMAGE = "checklogin-service"
+        CONTAINER_NAME = "checklogin-container"
+        GITHUB_TOKEN = credentials('github-api-token')
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm: [
+                    $class: 'GitSCM', 
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[
+                        url: 'https://github.com/PawelKaminski1776/Inspection-CheckLogin.Process.git',
+                        credentialsId: 'github-api-token'
+                    ]]
+                ]
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                sh "docker build -f Inspection-CheckLogin.dockerfile -t ${DOCKER_IMAGE} ."
+            }
+        }
+
+        stage('Run Docker Container') {
+            steps {
+                sh """
+                    docker stop ${CONTAINER_NAME} || true
+                    docker rm ${CONTAINER_NAME} || true
+                    docker run -d -p 5003:5003 --name ${CONTAINER_NAME} ${DOCKER_IMAGE}
+                """
+            }
+        }
+
+        stage('Cleanup Workspace') {
+            steps {
+                script {
+                    sh """
+                        echo Cleaning up workspace...
+
+                        # Remove everything except .git directory
+                        find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+
+                        echo Workspace cleanup completed.
+                    """
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            emailext subject: "Build Successful: ${env.JOB_NAME}",
+                     body: """<p>Build <b>${env.BUILD_NUMBER}</b> succeeded! 🎉</p>
+                              <p>Check logs at: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>""",
+                     mimeType: 'text/html',
+                     to: 'pawelkaminski1776@gmail.com'
+        }
+        failure {
+            emailext subject: "Build Failed: ${env.JOB_NAME}",
+                     body: """<p>Build <b>${env.BUILD_NUMBER}</b> failed! ❌</p>
+                              <p>Check logs at: <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>""",
+                     mimeType: 'text/html',
+                     to: 'pawelkaminski1776@gmail.com'
+        }
+    }
+}
