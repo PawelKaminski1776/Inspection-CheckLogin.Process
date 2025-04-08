@@ -21,8 +21,8 @@ RUN dotnet restore
 # Copy the rest of the source code
 COPY . ./  
 
-# Set environment to Production
-ENV ASPNETCORE_ENVIRONMENT=Production
+# Set environment to Dev
+ENV ASPNETCORE_ENVIRONMENT=Development
 
 # Build the application
 RUN dotnet publish -c Release -o /out
