@@ -26,6 +26,12 @@ namespace InspectionCheckLogin.Controllers.UserControllers
                 return StatusCode(500, $"Internal server error while processing the request: {ex.Message}");
             }
         }
+
+        [HttpGet("Health")]
+        public IActionResult HealthCheck()
+        {
+            return Ok(new { Status = "Healthy" });
+        }
     }
 
 }

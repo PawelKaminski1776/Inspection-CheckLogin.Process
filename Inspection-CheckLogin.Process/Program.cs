@@ -14,25 +14,6 @@ builder.Services.AddSingleton<IDtoFactory, DtoFactory>();
 
 var appConfig = AppConfiguration.Instance;
 
-if (builder.Environment.IsDevelopment())
-{
-    builder.WebHost.ConfigureKestrel(options =>
-    {
-        options.ListenAnyIP(5003);
-        options.ListenAnyIP(5004, listenOptions =>
-        {
-            listenOptions.UseHttps();
-        });
-    });
-}
-else
-{
-    builder.WebHost.ConfigureKestrel(options =>
-    {
-        options.ListenAnyIP(5003);
-    });
-}
-
 builder.Services.AddScoped<MongoConnect>(provider =>
 {
     var connectionString = appConfig.GetSetting("ConnectionStrings:DefaultConnection");
@@ -81,8 +62,29 @@ var serialization = endpointConfiguration.UseSerialization<NewtonsoftJsonSeriali
 serialization.Settings(settings);
 
 var transport = endpointConfiguration.UseTransport<LearningTransport>();
-transport.StorageDirectory("/app/.learningtransport");
 var persistence = endpointConfiguration.UsePersistence<LearningPersistence>();
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        options.ListenAnyIP(5003);
+        options.ListenAnyIP(5004, listenOptions =>
+        {
+            listenOptions.UseHttps();
+        });
+        transport.StorageDirectory("/app/.learningtransport");
+    });
+}
+else
+{
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        options.ListenAnyIP(5003);
+    });
+    transport.StorageDirectory("/home/ubuntu/storage");
+
+}
 
 var routing = transport.Routing();
 routing.RouteToEndpoint(typeof(LoginRequest), "NServiceBusHandlers");
